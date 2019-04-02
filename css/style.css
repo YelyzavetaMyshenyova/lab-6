@@ -1,8 +1,8 @@
-.main-navbar{
+nav#main-navbar{
 background-color: blue;
 }
 
-.navbar-container{
+div#navbar-container{
 background-color: blue;
 }
 

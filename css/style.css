@@ -1,15 +1,23 @@
+li{
+  float: left;
+  color: #fff; 
+  padding: 10px 20px;
+}
+
+li#onpage{
+  float: left;
+  text-decoration: underline overline;
+}
+
 ul{
   list-style-type: none;
-  padding: 10px 20px;
   text-decoration: none; 
-  text-decoration: underline overline;
 }
 
 nav#main-navbar{
   position:relative;
   background-color: blue;
   overflow: hidden;
-  float: left;
   width: 100%;
   margin:0;
   padding:0;
@@ -17,17 +25,11 @@ nav#main-navbar{
 }
  
 div#navbar-container{
-  float:left;
   position: relative;
   left: 50%; 
   display: block; 
 }
 
-.onpage{
-  float:left;
-  position: relative;
-  right: 50%;
-}
 
 .sidebar{
 

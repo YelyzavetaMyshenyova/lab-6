@@ -1,18 +1,11 @@
-li{
+main-navbar# ul li {
   float: left;
-  color: #fff; 
+  color: #ffffff;
   padding: 10px 20px;
-}
-
-li#onpage{
-  float: left;
-  text-decoration: underline overline;
-}
-
-ul{
-  list-style-type: none;
+    list-style-type: none;
   text-decoration: none; 
 }
+
 
 nav#main-navbar{
   position:relative;
@@ -26,7 +19,6 @@ nav#main-navbar{
  
 div#navbar-container{
   position: relative;
-  left: 50%; 
   display: block; 
 }
 

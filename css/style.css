@@ -1,14 +1,5 @@
-nav#main-navbar ul li a{
-  float: left;
-  color: #fff;
-  padding: 10px 20px;
-  text-decoration: none; 
-}
-    
+#main-navbar{
 
-nav#main-navbar ul li{
-  float: left;
-  position:relative;
   background-color: blue;
   overflow: hidden;
   width: 100%;
@@ -17,25 +8,30 @@ nav#main-navbar ul li{
   display: block; 
 }
 
-nav#main-navbar {
-    width: 100%;
+
+#main-navbar ul{
+ list-style-type: none;
+ margin:0;
+ padding:0;
+
+}
+
+#main-navbar ul li{
+ float:left;
+ padding: 10px 20px; 
+
 }
 
 
-nav#main-navbar ul{
- list-style-type: none;
+#main-navbar a{
+color: #fff;
+ text-decoration: none;
+
 }
  
-div#navbar-container{
+#navbar-container{
   position: relative;
   display: block; 
+   left:50%;
 }
 
-
-.sidebar{
-
-}
-
-.sidebar-container{
-
-}

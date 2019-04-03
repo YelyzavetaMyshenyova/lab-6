@@ -1,13 +1,13 @@
-nav#main-navbar ul li {
+nav#main-navbar ul li a{
   float: left;
-  color: #ffffff;
+  color: #fff;
   padding: 10px 20px;
-    list-style-type: none;
   text-decoration: none; 
 }
+    
 
-
-nav#main-navbar{
+nav#main-navbar ul li{
+  float: left;
   position:relative;
   background-color: blue;
   overflow: hidden;
@@ -15,6 +15,10 @@ nav#main-navbar{
   margin:0;
   padding:0;
   display: block; 
+}
+
+nav#main-navbar ul{
+ list-style-type: none;
 }
  
 div#navbar-container{
